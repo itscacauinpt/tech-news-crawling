@@ -41,11 +41,6 @@ def scrape_next_page_link(html_content):
 def scrape_news(html_content):
     selector = Selector(html_content)
 
-# summary = selector.css('div.entry-content > p::text').get()
-    # summary = selector.css('div.entry-content > p').get()
-    # print(summary)
-    # .replace('\n', '').replace('\t', '')
-
     return {
         'url': selector.css('head > link[rel~="canonical"]::attr(href)').get(),
         'title': selector.css('h1.entry-title::text').get().strip(),
@@ -59,14 +54,6 @@ def scrape_news(html_content):
             selector.css('.entry-content p').get(), 'html.parser'
         ).get_text().strip(),
     }
-
-
-# hmtl = fetch(
-#         'https://blog.betrybe.com/noticias/'
-#         'bill-gates-e-cetico-sobre-criptomoedas-e-nfts-entenda-o-motivo/')
-# # 'https://blog.betrybe.com/'
-# # 'carreira/passos-fundamentais-para-aprender-a-programar/')
-# print(scrape_news(hmtl))
 
 
 # Requisito 5
