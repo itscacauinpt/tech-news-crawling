@@ -1,7 +1,22 @@
-# initial commit
+import requests
+import time
+
+
 # Requisito 1
-def fetch(url):
-    """Seu código deve vir aqui"""
+def fetch(url) -> str:
+    try:
+        time.sleep(1)
+        headers = {"user-agent": "Fake user-agent"}
+        response = requests.get(url, timeout=1, headers=headers)
+        stts = response.status_code
+
+        if stts != 200:
+            return None
+        elif stts == 200:
+            return response.text
+
+    except (requests.ReadTimeout, requests.HTTPError):
+        return None
 
 
 # Requisito 2
