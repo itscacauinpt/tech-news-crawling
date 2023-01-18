@@ -61,21 +61,6 @@ def scrape_news(html_content):
 
 # Requisito 5
 def get_tech_news(amount):
-    '''
-    enquanto o amount de news for menor/igual ao amount escolhido
-    scrap das páginas das notícias
-    criar as news no db
-
-    -> news_amount_to_create == amount
-
-    -> lista com todas as news da página
-
-    -> scrap de cada página da lista
-
-    -> add scrapes da página na news_amount_to_create
-
-    -> + link da próxima página
-    '''
     url_page = 'https://blog.betrybe.com/'
 
     news_amount_to_create = []
@@ -85,9 +70,6 @@ def get_tech_news(amount):
         content = fetch(url_page)
         list_news_url = scrape_updates(content)
 
-# for new in list_new:
-# data_dict = scrape_news(content)
-
         for news_url in list_news_url:
             news_content = fetch(news_url)
             data_dict = scrape_news(news_content)
@@ -96,6 +78,4 @@ def get_tech_news(amount):
         url_page = scrape_next_page_link(content)
 
     create_news(news_amount_to_create[:amount])
-    # print(news_amount_to_create[:amount])
-    # print(news_amount_to_create)
     return news_amount_to_create[:amount]
