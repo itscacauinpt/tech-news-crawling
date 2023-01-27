@@ -5,6 +5,11 @@
 # Project Tech News
 > Status: finished :heavy_check_mark: :warning:
 
+<br/>
+
+> Tasks:
+> - [ ] tests
+
 Project done individually during the course of [Trybe](https://www.betrybe.com/).
 ...
 
