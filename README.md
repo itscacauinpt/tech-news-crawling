@@ -7,7 +7,7 @@
 
 <br/>
 
-> Tasks:
+> new TODOs:
 > - [ ] tests
 
 Project done individually during the course of [Trybe](https://www.betrybe.com/).
