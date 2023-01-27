@@ -1,10 +1,10 @@
 import sys
 
 from tech_news.scraper import get_tech_news
+from tech_news.analyzer.ratings import top_5_news, top_5_categories
 from tech_news.analyzer.search_engine import (
     search_by_title, search_by_date, search_by_tag, search_by_category
 )
-from tech_news.analyzer.ratings import top_5_news, top_5_categories
 
 
 menu = '''
@@ -25,22 +25,28 @@ def func_get_tech_news(user_response):
     return get_tech_news(amount)
 
 
-def func_search_by_category(category): return search_by_category(category)
+def func_search_by_category(category):
+    return search_by_category(category)
 
 
-def func_search_by_title(title): return search_by_title(title)
+def func_search_by_title(title):
+    return search_by_title(title)
 
 
-def func_search_by_date(date): return search_by_date(date)
+def func_search_by_date(date):
+    return search_by_date(date)
 
 
-def func_search_by_tag(tag): return search_by_tag(tag)
+def func_search_by_tag(tag):
+    return search_by_tag(tag)
 
 
-def func_top_5_categories(): return top_5_categories()
+def func_top_5_categories():
+    return top_5_categories()
 
 
-def func_top_5_news(): return top_5_news()
+def func_top_5_news():
+    return top_5_news()
 
 
 options_message = {
@@ -106,3 +112,6 @@ def analyzer_menu():
 
     else:
         return sys.stderr.write('Opção inválida')
+
+
+analyzer_menu()
