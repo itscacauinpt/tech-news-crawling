@@ -112,6 +112,3 @@ def analyzer_menu():
 
     else:
         return sys.stderr.write('Opção inválida')
-
-
-analyzer_menu()
