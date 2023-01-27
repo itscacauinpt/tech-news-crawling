@@ -102,7 +102,7 @@ def analyzer_menu():
     user_option = input('Escolha uma opção: ')
 
     if user_option == '7':
-        return sys.stderr.write('Encerrando script')
+        return print('Encerrando script\n')
 
     elif user_option in options_message.keys():
         return resolve_input(user_option)
@@ -111,4 +111,4 @@ def analyzer_menu():
         return resolve_input_func(user_option)
 
     else:
-        return sys.stderr.write('Opção inválida')
+        return print(ValueError('Opção inválida'), file=sys.stderr)
