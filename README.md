@@ -8,7 +8,8 @@
 <br/>
 
 > new TODOs:
-> - [ ] tests
+> - [ ] test web scrapping
+> - [ ] test menu analyzer
 
 Project done individually during the course of [Trybe](https://www.betrybe.com/).
 ...
