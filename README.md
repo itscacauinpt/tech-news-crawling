@@ -1,6 +1,6 @@
 #### Readme in construction :warning:
 
-<img src="#" alt="logo jest" width="300px" align="right" />
+<img src="https://user-images.githubusercontent.com/86060135/214990969-4b4f6dd3-aa76-4556-9ae8-15d7d2cc7179.png" alt="website ilustration" width="130px" align="left" />
 
 # Project Tech News
 > Status: finished :heavy_check_mark: :warning:
