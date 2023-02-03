@@ -13,16 +13,6 @@
 
 Project done individually during the course of [Trybe](https://www.betrybe.com/).
 
-The goal of this project was to solve problems and optimize algorithms.
-
-Developing my skills to implement solutions, such as
-
-- Logic;
-- Ability to interpret problems;
-- Ability to interpret a legacy code;
-- Capited to optimize a problem solving and;
-- Resolving Problems/Optimize Pressure Algorithms.
-
 <hr/>
 
 <div align="center">Copyright :copyright: Trybe 2022 - Project Job Insights
