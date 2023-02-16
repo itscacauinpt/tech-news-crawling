@@ -1,6 +1,6 @@
 <img src="https://user-images.githubusercontent.com/86060135/214990969-4b4f6dd3-aa76-4556-9ae8-15d7d2cc7179.png" alt="website ilustration" width="180px" align="right" />
 
-# Project Web Crawling - Tech News
+# Project Web Scraping - Tech News
 > Status: finished :heavy_check_mark: :warning:
 
 <br/>
@@ -14,7 +14,7 @@ In this project it was implemented a simple web scrapping methods, using <a href
 Developing skills, such as:
 - Python interative terminal;
 - Writing and importing modules;
-- Using web scrapping techniques;
+- Using web scraping techniques;
 - Extracting data of HTML;
 - Storing the content in a database;
 
