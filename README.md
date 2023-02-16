@@ -1,6 +1,4 @@
-#### Readme in construction :warning:
-
-<img src="https://user-images.githubusercontent.com/86060135/214990969-4b4f6dd3-aa76-4556-9ae8-15d7d2cc7179.png" alt="website ilustration" width="130px" align="left" />
+<img src="https://user-images.githubusercontent.com/86060135/214990969-4b4f6dd3-aa76-4556-9ae8-15d7d2cc7179.png" alt="website ilustration" width="180px" align="right" />
 
 # Project Web Crawling - Tech News
 > Status: finished :heavy_check_mark: :warning:
@@ -10,6 +8,15 @@
 > new TODOs:
 > - [ ] test web scrapping
 > - [ ] test menu analyzer
+
+In this project it was implemented a simple web scrapping methods, using <a href="https://blog.betrybe.com">Trybe's blog<a>.
+
+Developing skills, such as:
+- Python interative terminal;
+- Writing and importing modules;
+- Using web scrapping techniques;
+- Extracting data of HTML;
+- Storing the content in a database;
 
 Project done individually during the course of [Trybe](https://www.betrybe.com/).
 
